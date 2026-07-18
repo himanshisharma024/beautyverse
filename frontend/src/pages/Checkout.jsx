@@ -4,8 +4,7 @@ import { useCart } from "../context/CartContext";
 
 const Checkout = () => {
   const navigate = useNavigate();
-  const { cartItems, totalPrice, totalSavings, totalItems, setIsCartOpen } = useCart();
-
+const { cartItems, totalPrice, totalSavings, totalItems } = useCart();
   const [formData, setFormData] = useState({
     fullName: "",
     phone: "",
