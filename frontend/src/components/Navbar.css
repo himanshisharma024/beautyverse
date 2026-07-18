@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
