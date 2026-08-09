@@ -12,6 +12,7 @@ import CartSidebar from "./components/CartSidebar";
 import Footer from "./components/Footer";
 import Checkout from "./pages/Checkout";
 import WellnessHub from "./pages/WellnessHub";
+import CategoryGuide from "./pages/CategoryGuide";
 function App() {
   return (
     <BrowserRouter>
@@ -27,6 +28,7 @@ function App() {
         <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/wellness" element={<WellnessHub />} />
+        <Route path="/guide/:category" element={<CategoryGuide />} />
       </Routes>
       <Footer />
     </BrowserRouter>
