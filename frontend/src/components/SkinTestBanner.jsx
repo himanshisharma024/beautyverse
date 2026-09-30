@@ -52,7 +52,9 @@ const SkinTestBanner = () => {
 
             <button
               onClick={() => navigate("/skin-test")}
-              className="bg-white text-nykaa font-bold px-8 py-3 rounded-full hover:bg-pink-50 transition shadow-lg"
+              className="bg-white text-[#C94F7C] px-6 py-3 rounded-full
+             font-bold shadow-md hover:shadow-lg hover:scale-105
+             transition-all duration-300"
             >
               Take Free Skin Test →
             </button>
